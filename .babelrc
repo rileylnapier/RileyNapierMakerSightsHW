@@ -1,0 +1,18 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    ["emotion", {
+      "inline": true
+    }],
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "components": "./components",
+          "models": "./models",
+          "styled": "./styled"
+        }
+      }
+    ]
+  ]
+}
