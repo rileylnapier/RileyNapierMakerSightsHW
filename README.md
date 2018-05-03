@@ -10,3 +10,8 @@
   * `mongoose` to help with schemas/models
   * `mlabs` to host server
 * `heroku` to host app
+
+commands:
+
+* dev: `npm run dev`
+* deploy: `npm start`
