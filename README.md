@@ -16,12 +16,13 @@
 ## commands:
 
 * dev: `npm run dev`
-* deploy: `npm start`
+* production: `npm start`
 
 ## env variables:
 
 we use `dotenv` so create a `.env` file in root of directory with the following variables
 
+```
 SERVER_URL=http://localhost:3000
 MONGO_URI=mongodb://localhost:27017/my-database
 
@@ -37,6 +38,7 @@ EMAIL_SERVER=
 EMAIL_PORT=465
 EMAIL_USERNAME=
 EMAIL_PASSWORD=
+```
 
 ## mongodb
 
